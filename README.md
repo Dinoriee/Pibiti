@@ -1,12 +1,10 @@
-# React + Vite
+Nama: Dino Rosalino Yuswanto
+Kategori Proyek: HelathTech
+Deskripsi Singkat:
+Aplikasi yang saya buat kali ini saya namakan dengan Nosik, yang saya ambil dari 2 kata yakni No Sick yang memiliki arti "Jangan Sakit". dari aplikasi tersebut saya memiliki harapan dimana penduduk indonesia lebih terbuka terhadap kesehatan masing-masing dan orang sekitar.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dari apilkasi ini pengguna dapat melihat jenis-jenis obat yang ada di pasaran, mulai dari obat yang dijual secara umum hingga obat yang memerlukan resep dokter. saya memikirkan bahwa masyarakat harus lebih melek terkait masalah obat ini, karena tidak semua obat dapat dikonsumsi serta merta. Karena terdapat obat yang harus dilihat jumlah yang dikonsumsi demi kebaikan orang itu sendiri.
 
-Currently, two official plugins are available:
+Fitur selanjutnya terdapat fitur konsultasi secara langsung dengan tenaga medis yang berkompeten sehingga pengguna dapat menentukan mana obat yang harus diambil dan apabila hal tersebut tidak cukup diatasi dengan obat yang beredar di toko-toko umum, tenaga medis dapat menyarakan pengguna untuk mengunjungi rumah sakitt dsb.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+untuk saat ini hanya terpikirkan 2 fitur saja dari saya dan sanagat memungkinkan terdapat fitur lain selain 2 fitur tersebut kedepannya.
