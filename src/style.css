@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar-container {
@@ -16,12 +17,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(0, 55, 255);
+  background: linear-gradient(to right, rgb(113, 153, 246), rgb(25, 171, 229));
   width: 100%;
   padding: 1rem 2rem;
   box-sizing: border-box;
   transform: translateY(-100%);
   transition: transform 0.4s ease-in-out;
+  border-radius: 0 0 0.4em 0.4em;
+  font-weight: 400;
 }
 
 .navbar-container:hover .navbar {
@@ -47,6 +50,13 @@
 .nav li a {
   text-decoration: none;
   color: #fff;
+  transition: 0.2s;
+}
+
+.nav li a:hover {
+  text-decoration: none;
+  color: rgb(135, 114, 255);
+  transition: 0.2s;
 }
 
 .profile {
@@ -88,7 +98,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.2) 15%, rgba(172, 255, 255, 1));
 }
 
 .bg-video {
@@ -138,12 +148,27 @@
 
 .second-page {
   align-items: center;
+  background: linear-gradient(rgb(172, 255, 255), rgb(221, 238, 255));
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.second-title h1 {
+  color: rgb(0, 0, 0);
+}
+
+.second-page h2 {
+  text-align: center;
+  padding: 3rem;
+  color: #000;
 }
 
 .card-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 300;
 }
 
 .card {
@@ -153,7 +178,116 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 300px;
-  height: 20rem;
+  height: 25rem;
   background-color: rgb(33, 142, 250);
 }
-.second-page;
+
+.card h1 {
+  text-align: center;
+  margin: 0.2em;
+  font-weight: 400;
+}
+
+.second-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.gradient-foto {
+  height: 200px;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(33, 142, 250, 1)),
+    url("./src/assets/foto-ahli.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.7rem 0.5em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: rgb(210, 250, 255);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 0.5em;
+}
+.btn:hover {
+  border-color: #646cff;
+  background-color: rgb(164, 237, 247);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, rgb(113, 153, 246), rgb(25, 171, 229));
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.img-copyright-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+
+.img-copyright-container h1 {
+  font-weight: 300;
+}
+
+.quick-information {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  font-weight: 300;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  font-weight: 300;
+}
+
+.footer-nav h3 {
+}
+
+.footer img {
+  width: 5rem;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.footer ul li a:hover {
+  text-decoration: none;
+  color: rgb(135, 114, 255);
+  transition: 0.2s;
+}
