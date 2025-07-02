@@ -1,5 +1,5 @@
 Nama: Dino Rosalino Yuswanto
-Kategori Proyek: HelathTech
+Kategori Proyek: HealthTech
 Deskripsi Singkat:
 Aplikasi yang saya buat kali ini saya namakan dengan Nosik, yang saya ambil dari 2 kata yakni No Sick yang memiliki arti "Jangan Sakit". dari aplikasi tersebut saya memiliki harapan dimana penduduk indonesia lebih terbuka terhadap kesehatan masing-masing dan orang sekitar.
 
