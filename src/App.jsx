@@ -1,8 +1,11 @@
+import React from 'react';
 import './style.css';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import Button from './components/Button';
 import Footer from './components/Footer';
+import ReviewForm from './components/ReviewForm';
+import ReviewCarousel from './components/ReviewCarousel';
 
 function App() {
 
@@ -39,7 +42,15 @@ function App() {
 
         <h2>Telah Melayani Lebih Dari 5000 Pasien di Seluruh Indonesia!</h2>
       </div>
-
+        <section className="review-container">
+          <div className="review-title">
+            <h2>Apa Kata Mereka?</h2>
+          </div>
+          <ReviewCarousel />
+          <hr className="pembatas-review" />
+          <h3>Bagikan Pengalaman Anda</h3>
+          <ReviewForm />
+        </section>
       <Footer />
     </>
   )
