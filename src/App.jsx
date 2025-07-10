@@ -1,59 +1,28 @@
 import React from 'react';
-import './style.css';
-import Navbar from './components/Navbar';
-import Card from './components/Card';
-import Button from './components/Button';
-import Footer from './components/Footer';
-import ReviewForm from './components/ReviewForm';
-import ReviewCarousel from './components/ReviewCarousel';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './layout/Layout';
+import HomePage from './pages/HomePage';
+import ObatPage from './pages/ObatPage';
+import ContactPage from './pages/ContactPage';
+import AboutPage from './pages/AboutPage';
+import AhliDetailPage from './pages/AhliDetailPage';
+import ReviewListPage from './pages/ReviewListPage';
+import ProfilePage from './pages/ProfilePage';
 
 function App() {
-
   return (
-    <>
-      <div className="video-container">
-        <div className="overlay"></div>
-        <video autoPlay loop muted playsInline className='bg-video'>
-          <source src='./src/assets/loop video.mp4' type='video/mp4' />
-        </video>
-      </div>
-      <div className="navbar-container">
-        <Navbar></Navbar>
-      </div>
-
-      <div className="tampilan-awal">
-        <h1>Selamat Datang di Aplikasi Nosik</h1>
-        <a href="#">Know More About Us</a>
-      </div>
-      <div className="second-page">
-        <div className="second-title">
-          <h1>Ditangani oleh ahli yang berkompeten</h1>
-        </div>
-        
-        <div className="card-container">
-          <Card name='Nama Ahli -1-' desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, unde.'
-          btnDesc='About Ahli -1-'></Card>
-          <Card name='Nama Ahli -2-' desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, unde.'
-          btnDesc='About Ahli -2-'></Card>
-          <Card name='Nama Ahli -3-' desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, unde.'
-          btnDesc='About Ahli -3-'></Card>
-        </div>
-        
-
-        <h2>Telah Melayani Lebih Dari 5000 Pasien di Seluruh Indonesia!</h2>
-      </div>
-        <section className="review-container">
-          <div className="review-title">
-            <h2>Apa Kata Mereka?</h2>
-          </div>
-          <ReviewCarousel />
-          <hr className="pembatas-review" />
-          <h3>Bagikan Pengalaman Anda</h3>
-          <ReviewForm />
-        </section>
-      <Footer />
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="obat" element={<ObatPage />} />
+        <Route path="contact" element={<ContactPage />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="ahli/:id" element={<AhliDetailPage />} />
+        <Route path="reviewlist" element={<ReviewListPage />} />
+        <Route path="profile" element={<ProfilePage />} />
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;

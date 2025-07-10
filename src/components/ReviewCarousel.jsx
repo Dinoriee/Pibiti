@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { ReviewContext } from '../context/ReviewContext';
+import { Link } from 'react-router-dom';
 
 function ReviewCarousel() {
   const { reviews } = useContext(ReviewContext);
@@ -24,7 +25,7 @@ function ReviewCarousel() {
         </div>
       </div>
       <div className="more-button-container">
-        <a href="#" className="btn-more-reviews">Lihat Semua Review</a>
+        <Link to='/reviewlist' className="btn-more-reviews">Lihat Semua Review</Link>
       </div>
     </div>
   );
