@@ -18,7 +18,7 @@ function HomePage() {
         </video>
       </div>
 
-      <div className="tampilan-awal">
+      <div className="tampilan-awal" style={{fontFamily: "Montserrat",}}>
         <h1>Selamat Datang di Aplikasi Nosik</h1>
         <Link to='/about'>Know More About Us</Link>
       </div>
