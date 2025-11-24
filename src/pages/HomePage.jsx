@@ -14,7 +14,7 @@ function HomePage() {
       <div className="video-container">
         <div className="overlay"></div>
         <video autoPlay loop muted playsInline className='bg-video'>
-          <source src='./src/assets/loop video.mp4' type='video/mp4' />
+          <source src='./public/assets/loop video.mp4' type='video/mp4' />
         </video>
       </div>
 

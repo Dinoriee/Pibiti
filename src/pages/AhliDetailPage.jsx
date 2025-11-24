@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { AhliContext } from '../context/AhliContext';
-import eduIconSrc from '/src/assets/backpack.svg';
-import expIconSrc from '/src/assets/clock.svg';
-import locIconSrc from '/src/assets/geo-alt.svg';
+import eduIconSrc from '/public/assets/backpack.svg';
+import expIconSrc from '/public/assets/clock.svg';
+import locIconSrc from '/public/assets/geo-alt.svg';
 
 function InfoItem({ icon, label, value }) {
   return (
