@@ -4,7 +4,7 @@ function Footer(props){
     return (
     <footer className="footer">
         <div className="img-copyright-container">
-            <img src="./public/vite.svg" alt="Logo Aplikasi"></img>
+            <img src="/vite.svg" alt="Logo Aplikasi"></img>
         <h1>© Copyright 2025, Nosik.</h1>
         </div>
         <div className="footer-nav">

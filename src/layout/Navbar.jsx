@@ -25,7 +25,7 @@ function Navbar() {
     return (
     <nav className="navbar">
         <div className="nav">
-            <img src="./public/vite.svg" alt="Logo Aplikasi"></img>
+            <img src="/vite.svg" alt="Logo Aplikasi"></img>
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/obat">Obat</Link></li>
@@ -36,9 +36,9 @@ function Navbar() {
         <div className="profile">
              <div className={isOpen ? 'profile active' : 'profile'} ref={dropdownRef}>
             <button className="profile-button" onClick={toggleDropdown}>
-                <img className="foto-profile" src="/assets//react.svg" alt="Foto Profile" />
+                <img className="foto-profile" src="/assets/react.svg" alt="Foto Profile" />
                 <span>Username</span>
-                <img className="logo-dropdown" src="/assets//dropdown.svg" alt="dropdown" />
+                <img className="logo-dropdown" src="/assets/dropdown.svg" alt="dropdown" />
             </button>
 
             <div className="dropdown">
